@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+div.container {
+  margin: 0 auto;
+}
+
+div.container header.wholetitle {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 1rem;
+}
+
+div.container header.wholetitle h3 {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100px;
+}
+
+div.container header.wholetitle div.titlemenu {
+  display: flex;
+  align-items: center;
+  flex: 1 1 100px;
+  justify-content: flex-end;
+}
+
+div.container header.wholetitle div.titlemenu div img {
+  width: 1.2rem;
+  height: 1.3rem;
+  vertical-align: text-bottom;
+  margin-right: 0.5rem;
+}
+
+div.container section.backimage {
+  width: 100%;
+  min-height: 50vh;
+  background: url("./pics/officenight.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+div.container section.backimage div.mainimage {
+  width: 100%;
+  min-height: 50vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.3),
+    rgba(0, 0, 255, 0.3)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+div.container section.backimage h1 {
+  color: white;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+div.container section.backimage p {
+  color: white;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+div.container section.backimage h1 {
+  font-size: 2.5rem;
+}
+
+div.container section.backimage p {
+  line-height: 1.5rem;
+}
+
+div.container section.backimage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+section.whiteimage {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("./pics/pcb.jpg");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+section.whiteimage div.support2 {
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 255, 0.3),
+    rgba(128, 128, 128, 0.3),
+    rgba(255, 0, 0, 0.3)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+section.whiteimage div.secondcontent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+section.whiteimage div.secondcontent div.paragraph h1 {
+  margin: 6.5rem auto 1rem auto;
+  color: rgb(143, 140, 140);
+}
+section.whiteimage div.secondcontent div.paragraph p {
+  line-height: 1.5rem;
+  color: rgb(143, 140, 140);
+}
+
+section.whiteimage div.secondcontent div.wholeform {
+  /* border: 2px solid black; */
+  width: 60%;
+  min-height: 10vh;
+  margin: 0 auto;
+}
+
+section.whiteimage div.secondcontent div.wholeform div.form1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(143, 140, 140);
+}
+
+section.whiteimage div.secondcontent div.wholeform div.form1 .box1 {
+  flex: 1 1 250px;
+  max-width: 250px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2rem auto 2rem auto;
+}
+section.whiteimage div.secondcontent div.wholeform div.form1 .box2 {
+  flex: 1 1 250px;
+  max-width: 250px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2rem auto 2rem auto;
+}
+section.whiteimage div.secondcontent div.wholeform div.form1 .box3 {
+  flex: 1 1 250px;
+  max-width: 250px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2rem auto 2rem auto;
+}
+
+section.whiteimage div.secondcontent div.wholeform div.form2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(143, 140, 140);
+}
+
+section.whiteimage div.secondcontent div.wholeform div.form2 .box4 {
+  flex: 1 1 250px;
+  max-width: 250px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2rem auto 2rem auto;
+}
+section.whiteimage div.secondcontent div.wholeform div.form2 .box5 {
+  flex: 1 1 250px;
+  max-width: 250px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2rem auto 2rem auto;
+}
+section.whiteimage div.secondcontent div.wholeform div.form2 .box6 {
+  flex: 1 1 250px;
+  max-width: 250px;
+  min-height: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin: 2rem auto 2rem auto;
+}
+
+img {
+  width: 5vw;
+  height: 5vw;
+}
+
+section.whiteimage div.secondcontent div.wholeform h4 {
+  margin: 1rem auto;
+}
+
+section.whiteimage div.secondcontent div.wholeform p {
+  line-height: 1.2rem;
+}
+
+@media screen and (max-width: 1000px) {
+  img {
+    width: 13vw;
+    height: 13vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+}
+
+div.container footer.keyboardimage {
+  width: 100%;
+  min-height: 13vh;
+  background-image: url("./pics/photo-1523655223303-4e9ef5234587.avif");
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 0;
+}
+
+div.container footer.keyboardimage div.support3 {
+  width: 100%;
+  min-height: 100%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.7),
+    rgba(128, 128, 128, 0.5),
+    rgba(0, 0, 255, 0.7)
+  );
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
